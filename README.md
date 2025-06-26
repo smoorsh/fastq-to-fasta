@@ -1,8 +1,10 @@
 # fastq-to-fasta
-A python script that takes a FASTQ file and creates a FASTA file as well as a reverse complement FASTA.
+A python script that takes a FASTQ file and creates a FASTA file as well as a reverse complement FASTA file.
 
 ## Introduction
-This python script takes a FASTQ-formatted forward-read DNA file and creates a FASTA formatted DNA file using those reads. Then, it creates a reverse complement of the FASTA file, also in FASTA format.
+This python script takes a FASTQ-formatted, forward-read DNA file and creates a FASTA formatted DNA file using those reads. Then, it creates a reverse complement of the FASTA file, also in FASTA format.
+The overall output is two FASTA files, one with forward reads and one with the reverse complements to the forward reads.
+Please ensure your input file is DNA, not RNA or protein.
 
 ## Download Instructions
 Use the following command line to download the GitHub repository:
